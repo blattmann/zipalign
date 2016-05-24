@@ -40,7 +40,7 @@ To make a long story short:
 As I figured out that a lot of developers have a problem with `zipalign` (http://GIYF.com) I decided to tell you my solution:
 I was lookig for the latest version of zipalign on my computer, copied it inside my apk-folder and then fired this command:
 
-    $ ./zipalign -v 4 android-release-unaligned.apk ibiza2016-1.apk
+    $ ./zipalign -v 4 android-release-unaligned.apk HelloWorld.apk
 
 instead of the proposed one: 
 
